@@ -78,6 +78,52 @@ button {
 
 /*! start : ibrahim  */
 
+/** second-section !*/
+.second-section {
+    background-color: #F6F6FD;
+    /* height: 60vh; */
+    padding: 3rem;
+}
+
+.first-div {
+    
+    text-align: center;
+
+}
+
+.second-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin-top: 20px;
+}
+
+.second-div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+.second-div p {
+    text-align: center;
+    color: #818198;
+}
+
+.first-img{
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #ece7fe;
+}
+
+.first-hrading {
+    text-align: center;
+    font-weight: 450;
+}
+
 /*! end : ibrahim  */
 
 /*^ start : ilyass  */
