@@ -220,4 +220,35 @@ button {
     font-size: 0.75rem;
     border-bottom: 0.5px groove;
 }
+
+/** fifth section */
+.section5 {
+    padding: 10rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.section5-description {
+    gap: 5rem;
+}
+
+.description-item {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.description-item h3 {
+    font-size: 18px;
+    color: #364655;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.description-item p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #97a6b5;
+}
 /*^ end : ilyass  */
