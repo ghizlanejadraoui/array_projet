@@ -2,14 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, "Noto Sans",
+    "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 /*& start : ghizlane  */
 
-/** nav */
+/** header */
 header {
     padding: 0 3rem;
-    font-family: "Segoe UI";
 }
 
 nav {
@@ -37,9 +39,6 @@ a {
 }
 
 button {
-    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
-        "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-        "Segoe UI Symbol", "Noto Color Emoji";
     width: 90px;
     height: 40px;
     background-color: #6d48e5;
@@ -48,6 +47,33 @@ button {
     border-radius: 5px;
 }
 
+/** first section*/
+.first_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* height:500px; */
+    width: 100%;
+    gap: 1rem;
+}
+
+.part4 button {
+    width: 200px;
+    font-weight: bold;
+}
+
+.part5 {
+    display: flex;
+}
+
+.part5 a {
+    padding: 0.5rem;
+}
+
+.part5>a img {
+    width: 100px;
+}
 /*& end : ghizlane  */
 
 /*! start : ibrahim  */
