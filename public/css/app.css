@@ -166,5 +166,58 @@ button {
 /*! end : ibrahim  */
 
 /*^ start : ilyass  */
+/** fourth section */
+.section4,
+.section4-desciption,
+.section4-statistics div,
+.section5-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.section4 {
+    background-color: #6d48e5;
+    color: white;
+    padding: 6rem 4rem;
+    gap: 1rem;
+}
+
+.section4-desciption {
+    padding-bottom: 1.5rem;
+    gap: 0.5rem;
+}
+
+.section4-desciption h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.section4-desciption p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.section4-statistics {
+    display: flex;
+    gap: 5rem;
+    padding-bottom: 1rem;
+}
+
+.section4-statistics div {
+    gap: 0.125rem;
+}
+
+.section4-statistics h1 {
+    font-size: 5rem;
+}
+
+.section4-statistics p {
+    font-size: 1rem;
+}
+
+.section4-moreinfo {
+    font-size: 0.75rem;
+    border-bottom: 0.5px groove;
+}
 /*^ end : ilyass  */
